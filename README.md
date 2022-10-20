@@ -54,7 +54,6 @@
 
 > git clone https://GitHub.com/SeFi-ux/admin-panel-finder
 
->cd Script
 
 # run : 
 
