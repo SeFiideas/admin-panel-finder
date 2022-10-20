@@ -1,6 +1,6 @@
 <center><h1> Admin Panel Finder </h1></center>
 
-## English
+
 - admin panel finder tool
 - for Windows or Linux
 - Has two methods , metod1 and metod2
