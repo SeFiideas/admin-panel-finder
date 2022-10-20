@@ -1,0 +1,9 @@
+Writed python3
+by : SeFi
+Email : sefi6915@gmail.com
+GitHub : GitHub.com/SeFi-ux
+ID Telegram : @The_SeFi
+Version : 1.0
+Version python :  3.10.5
+Version pip : 22.0.4
+
