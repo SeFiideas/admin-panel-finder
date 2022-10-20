@@ -70,10 +70,10 @@ class start:
 
                     try:
                         __r = requests.get(__url)
-                        print(Fore.GREEN + "[ 200 ]" + " " + "Finded one login page ( Url )> " + fg('black') + bg('green') + __url + "\033[91m")   # for response 200 [ OK ]
+                        print(Fore.GREEN + "[ 200 ]" + " " + "Finded one login page ( Url )> " + fg('black') + bg('green') + __url + "\033[00m")   # for response 200 [ OK ]
 
                     except:
-                        print(Fore.RED + "[ 404 ]" + " " + "Not fond ( Url )> " + fg('black') + bg('red') + __url + "\033[91m")       # for response 404 [ not fond ]
+                        print(Fore.RED + "[ 404 ]" + " " + "Not fond ( Url )> " + fg('black') + bg('red') + __url + "\033[00m")       # for response 404 [ not fond ]
 
 
                 except KeyboardInterrupt:
@@ -123,9 +123,9 @@ class start:
                         try:
                             __r = requests.get(__url)
                             if __r.status_code == 200:
-                                print(Fore.GREEN + "[ 200 ]" + " " + "Finded one login page ( Url )> " + fg('red') + bg('black') + __url + "\033[91m")
+                                print(Fore.GREEN + "[ 200 ]" + " " + "Finded one login page ( Url )> " + fg('red') + bg('black') + __url + "\033[00m")
                             else:
-                                print(Fore.RED + "[ 404 ]" + " "  + "Not fond ( Url )> " + fg('red') + bg('black') + __url + "\033[91m")
+                                print(Fore.RED + "[ 404 ]" + " "  + "Not fond ( Url )> " + fg('red') + bg('black') + __url + "\033[00m")
 
                         except:
                             time.sleep(3)
