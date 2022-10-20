@@ -61,7 +61,7 @@
 
 >cd Script
 
-$$ run : $$
+# run : 
 
 > python Finder.py --metod --Urltarget --lincklist
 
