@@ -9,11 +9,6 @@
 - email: SeFi6915@gmail.com
 
 
-# A view of the tool
-
-## ![img1](img.jpg)
-## ![img2](img2.jpg)
-
 # metods:
 
 **metod1 :**
